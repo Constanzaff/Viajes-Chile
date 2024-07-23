@@ -5,8 +5,40 @@ body * {
     font-family: "Raleway", sans-serif;
 }
 
+/* Navbar */
 .navbar {
     background-color: transparent;
 }
 
+/* Quienes somos */
+.card-iconos {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    font-size: 18px;
+}
 
+
+.card-body {
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+
+/* footer */
+footer {
+    padding-top: 20px;
+}
+
+.fondo {
+    background-color: wheat ;
+}
+
+.iconos {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
